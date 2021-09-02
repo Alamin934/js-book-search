@@ -14,6 +14,10 @@
             width: auto !important;
             height: 450px !important;
         }
+
+        #total-books-found {
+            display: none;
+        }
     </style>
 </head>
 
@@ -23,11 +27,14 @@
         <div class="container">
             <!-- Search Option -->
             <div class="input-group w-50 mx-auto">
-                <input id="searchText" type="text" class="form-control" placeholder="Seach by book name">
-                <button onclick="searchResult()" class="btn btn-dark">Search</button>
+                <input id="searchText" type="text" class="form-control" placeholder="Search Books...">
+                <button onclick="searchBooks()" class="btn btn-dark">Search</button>
             </div>
 
-            <!-- Display Books Info -->
+            <!-- Showing Total books Count -->
+            <p id="total-books-found" class="text-center fw-bold bg-light p-2 mt-1"></p>
+
+            <!-- Display Books Details -->
             <div id="book-details" class="row row-cols-1 row-cols-md-3 g-4 mt-5">
 
             </div>
