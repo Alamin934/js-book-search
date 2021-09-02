@@ -44,10 +44,3 @@ const displayBooks = books => {
     });
 
 }
-
-
-
-
-/* if (book.author_name?.length > 1 || book.author_name?.length == 1) {
-            const singleAuthor = book.author_name[0];
-        } */
