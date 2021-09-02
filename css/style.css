@@ -1,0 +1,8 @@
+.img-size {
+    width: auto !important;
+    height: 480px !important;
+}
+
+#total-result-found {
+    display: none;
+}
